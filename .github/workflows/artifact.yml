@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: download the text file
+      - name: download the text file from preview step
         uses: actions/download-artifact@v7
         with:
           name: hello-artifact
